@@ -1,0 +1,15 @@
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\bin\Debug\net8.0\cSharpProjects.exe
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\bin\Debug\net8.0\cSharpProjects.deps.json
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\bin\Debug\net8.0\cSharpProjects.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\bin\Debug\net8.0\cSharpProjects.dll
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\bin\Debug\net8.0\cSharpProjects.pdb
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.sourcelink.json
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.dll
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\refint\cSharpProjects.dll
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.pdb
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\cSharpProjects.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Desktop\5th Sem\dotnet\cSharpProjects\obj\Debug\net8.0\ref\cSharpProjects.dll
