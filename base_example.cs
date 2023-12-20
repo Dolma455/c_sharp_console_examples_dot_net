@@ -17,33 +17,33 @@
 //     }
 // }
 
-class Animal
-{
-    public void Eat()
-    {
-        Console.WriteLine("Animal is eating....");
-    }
-}
-class Dog : Animal
-{
-    public void Bark()
-    {
-        Console.WriteLine("Dog is barking....");
-    }
-    public void Eat()
-    {
-        //Using base to call the Eat method from the base class (Animal)
-        base.Eat();
-        Console.WriteLine("Dog is Eating...");
-    }
-}
+// class Animal
+// {
+//     public void Eat()
+//     {
+//         Console.WriteLine("Animal is eating....");
+//     }
+// }
+// class Dog : Animal
+// {
+//     public void Bark()
+//     {
+//         Console.WriteLine("Dog is barking....");
+//     }
+//     public void Eat()
+//     {
+//         //Using base to call the Eat method from the base class (Animal)
+//         base.Eat();
+//         Console.WriteLine("Dog is Eating...");
+//     }
+// }
 
-class Program
-{
-    public static void Main()
-    {
-        Dog d = new Dog();
-        d.Eat();
-        d.Bark();
-    }
-}
+// class Program
+// {
+//     public static void Main()
+//     {
+//         Dog d = new Dog();
+//         d.Eat();
+//         d.Bark();
+//     }
+// }
