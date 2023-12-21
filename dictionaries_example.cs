@@ -11,5 +11,10 @@ class Program {
 
         //Accessing values by key
         Console.WriteLine(ages["Bob"]); 
+
+        //Iterating through the idictionary
+        foreach (var pair in ages) {
+            Console.WriteLine($"{pair.Key} is {pair.Value} years old.");
+        }
     }
 }
