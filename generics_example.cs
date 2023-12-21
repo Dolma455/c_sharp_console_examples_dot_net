@@ -1,61 +1,55 @@
-// using System;
-// using System.Collections.Generic;
+using System ;
+using System.Collections.Generic ;
+class Program 
+  {
+    static void Main() {
+        //Creating a generic list of Type T
+        List<int> integerList=new List<int>();
+        List<string> stringList=new List<string>();
+        List<double> doublesList=new List<double>();
+    //Adding elements to the list
+    integerList.Add(4);
+    integerList.Add(1);
+    integerList.Add(3);
 
-// class Program
-// {
-//     static void Main()
-//     {
-//         // Create a dictionary with dynamic types for both keys and values
-//         Dictionary<dynamic, dynamic> dictionary = new Dictionary<dynamic, dynamic>();
+    stringList.Add("one");
+    stringList.Add("two");
+    stringList.Add("three");
 
-//         // Add a string key and an integer value
-//         dictionary.Add("One", 1);
+    doublesList.Add(1.1);
+    doublesList.Add(2.2);
+    doublesList.Add(3.3);
 
-//         // Add an integer key and a string value
-//         dictionary.Add(2, "Two");
 
-//         // Access values using keys
-//         Console.WriteLine(dictionary["One"]); // Outputs: 1
-//         Console.WriteLine(dictionary[2]); // Outputs: Two
+    
 
-//         // Add a new key-value pair with a 'Person' object as the key and a 'Car' object as the value
-//         Person person = new Person("John", "Doe");
-//         Car car = new Car("Toyota", "Corolla", 2020);
-//         dictionary.Add(person, car);
+    //Displaying the lists
+    Console.WriteLine("Integer List:");
+    DisplayList(integerList);
 
-//         // Access the 'Car' object using the 'Person' object as the key
-//         Car johnsCar = dictionary[person];
-//         Console.WriteLine(johnsCar.Description());
-//     }
-// }
+    //Removing elements from the list
+    Console.WriteLine("Sorted List:");
+    integerList.Sort();
+    DisplayList(integerList);
+    Console.WriteLine("Remove an item");
+    integerList.Remove(1);
+    DisplayList(integerList);
+    Console.WriteLine("Remove at index");
+    integerList.RemoveAt(0);
+    DisplayList(integerList);
 
-// public class Person
-// {
-//     public string FirstName { get; set; }
-//     public string LastName { get; set; }
+    Console.WriteLine("String List:");
+    DisplayList(stringList);
 
-//     public Person(string firstName, string lastName)
-//     {
-//         FirstName = firstName;
-//         LastName = lastName;
-//     }
-// }
+    Console.WriteLine("Double List:");
+    DisplayList(doublesList);
+    
 
-// public class Car
-// {
-//     public string Make { get; set; }
-//     public string Model { get; set; }
-//     public int Year { get; set; }
-
-//     public Car(string make, string model, int year)
-//     {
-//         Make = make;
-//         Model = model;
-//         Year = year;
-//     }
-
-//     public string Description()
-//     {
-//         return $"{Year} {Make} {Model}";
-//     }
-// }
+    //Helper method to display the list 
+    static void DisplayList<T>(List<T> list) {
+        foreach (T item in list) {
+            Console.WriteLine(item);
+        }
+    }
+    }
+  }
