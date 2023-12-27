@@ -21,6 +21,12 @@ class Program {
         ) {
             Console.WriteLine(element);
         }
+        myQueue.Clear();
+        foreach(int element in myQueue
+        ) {
+            Console.WriteLine("No element");
+            Console.WriteLine(element);
+        }
 
         strQueue.Enqueue("Hello");
         strQueue.Enqueue("World");
