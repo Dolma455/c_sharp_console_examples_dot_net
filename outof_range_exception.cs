@@ -1,27 +1,27 @@
-class Program {
-    static void Main() {
+// class Program {
+//     static void Main() {
 
-        try
-        {
-             try
-        {
-            int[] arr=new int[5];
-        int value=arr[10];
+//         try
+//         {
+//              try
+//         {
+//             int[] arr=new int[5];
+//         int value=arr[10];
             
-        }
-        catch (IndexOutOfRangeException e) 
-        {
+//         }
+//         catch (IndexOutOfRangeException e) 
+//         {
             
-            Console.WriteLine("Index out of range" + e.Message);
-        }
+//             Console.WriteLine("Index out of range" + e.Message);
+//         }
         
-        }
-        catch (System.Exception)
-        {
+//         }
+//         catch (System.Exception)
+//         {
             
-            Console.WriteLine("Exception occured");
-        }
+//             Console.WriteLine("Exception occured");
+//         }
 
        
-    }
-}
+//     }
+// }
