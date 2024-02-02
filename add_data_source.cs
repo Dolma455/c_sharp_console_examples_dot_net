@@ -33,12 +33,12 @@ public class Program {
 
 
 IEnumerable<Student> studentQuery=from student in students
-where student.scores[0]>90
+where student.scores[0]>90 orderby student.Last ascending
 select student;
 
 
 foreach (Student student in students) {
-    Console.WriteLine("{0},{1}",student.First,student.Last);
+    Console.WriteLine("{0},{1}",student.First ,student.Last);
 }
 
     }
