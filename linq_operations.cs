@@ -16,6 +16,13 @@ class Program
         var uppercasedWords = words.Select(w => w.ToUpper());
         Console.WriteLine("Uppercased words: " + string.Join(", ", uppercasedWords));
 
+        // Sorting with OrderBy and OrderByDescending
+        numbers = new List<int> { 5, 7, 2, 4, 3, 1 };
+        var sortedNumbers = numbers.OrderBy(n => n);
+        Console.WriteLine("Sorted numbers: " + string.Join(", ", sortedNumbers));
+        var sortedNumbersDesc = numbers.OrderByDescending(n => n);
+        Console.WriteLine("Sorted numbers (desc): " + string.Join(", ", sortedNumbersDesc));
+
        
     }
 }
