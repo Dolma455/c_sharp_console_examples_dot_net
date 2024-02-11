@@ -32,6 +32,12 @@ class Program
         double average = numbers.Average();
         Console.WriteLine($"Count: {count}, Sum: {sum}, Max: {max}, Min: {min}, Average: {average}");
 
+         // Combining with Concat
+        List<int> first = new List<int> { 1, 2, 3 };
+        List<int> second = new List<int> { 4, 5, 6 };
+        var combined = first.Concat(second);
+        Console.WriteLine("Combined lists: " + string.Join(", ", combined));
+
        
     }
 }
