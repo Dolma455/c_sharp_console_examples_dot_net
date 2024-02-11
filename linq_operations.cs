@@ -11,6 +11,11 @@ class Program
         var evenNumbers = numbers.Where(n => n % 2 == 0);
         Console.WriteLine("Even numbers: " + string.Join(", ", evenNumbers));
 
+        // Transforming with Select
+        List<string> words = new List<string> { "hello", "world", "LINQ", "is", "awesome" };
+        var uppercasedWords = words.Select(w => w.ToUpper());
+        Console.WriteLine("Uppercased words: " + string.Join(", ", uppercasedWords));
+
        
     }
 }
