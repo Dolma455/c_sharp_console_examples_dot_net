@@ -23,6 +23,15 @@ class Program
         var sortedNumbersDesc = numbers.OrderByDescending(n => n);
         Console.WriteLine("Sorted numbers (desc): " + string.Join(", ", sortedNumbersDesc));
 
+         // Aggregating with Count, Sum, Max, Min, and Average
+        numbers = new List<int> { 1, 2, 3, 4, 5 };
+        int count = numbers.Count();
+        int sum = numbers.Sum();
+        int max = numbers.Max();
+        int min = numbers.Min();
+        double average = numbers.Average();
+        Console.WriteLine($"Count: {count}, Sum: {sum}, Max: {max}, Min: {min}, Average: {average}");
+
        
     }
 }
