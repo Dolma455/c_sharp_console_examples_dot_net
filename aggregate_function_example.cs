@@ -16,6 +16,7 @@ public class LinqTest {
             new Student(1,"Hari","Kathmandu"),
             new Student(2,"Shyam","Lalitpur"),
             new Student(3,"Sita","Bhaktapur"),
+            new Student(4,"Nabin","Kathmandu"),
         };
         int maxId=student.Max(s=>s.id);
         Console.WriteLine("Maximum id is: "+maxId);
@@ -32,6 +33,15 @@ public class LinqTest {
        var result1=student.OrderBy(s=>s.name);
        foreach(var res in result1) {
         Console.WriteLine(res.id + "\t" + res.name + "\t" + res.address);
+       }
+
+       //Use of group By
+       var result2=student.GroupBy(s=>s.address);
+       foreach(var res in result2) {
+        Console.WriteLine(res.Key);
+        foreach(var r in res) {
+            Console.WriteLine(r.id + "\t" + r.name + "\t" + r.address);
+        }
        }
     }
 }
