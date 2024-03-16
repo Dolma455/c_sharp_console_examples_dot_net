@@ -21,5 +21,17 @@ public class LinqTest {
         Console.WriteLine("Maximum id is: "+maxId);
         int count=student.Count();
         Console.WriteLine("Total number of students: "+count);
-        }
+
+       var result=student.Where(s=>s.address.Equals("Kathmandu")).OrderBy(s=>s.name);
+       Console.WriteLine("id\t name\t address");
+       foreach (var a in result)
+       {
+           Console.WriteLine(a.id + "\t" + a.name + "\t" + a.address);
+       }
+
+       var result1=student.OrderBy(s=>s.name);
+       foreach(var res in result1) {
+        Console.WriteLine(res.id + "\t" + res.name + "\t" + res.address);
+       }
     }
+}
